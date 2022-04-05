@@ -1,0 +1,217 @@
+.iconPadding{
+  padding-left: 30px;
+  float: right;
+}
+.buttonPadding{
+  padding-left: 30px;
+}
+
+    .pb-cmnt-container {
+        font-family: Lato;
+        margin-top: 100px;
+    }
+
+    .pb-cmnt-textarea {
+        resize: none;
+        padding: 20px;
+        height: 130px;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+    }
+.shareButtonFloat{
+  float: right
+}
+.commentBoxWidth{
+  width: 100%;
+}
+
+.no-box-shadow {
+  box-shadow: none
+}
+
+.no-box-shadow:focus {
+  box-shadow: none
+}
+
+.day {
+  font-size: 9px
+}
+
+.heart {
+  border: 1px soild green !important;
+  border-color: green !important;
+  border-radius: 22px
+}
+
+.heart-icon {
+  color: green
+}
+
+.comment-text {
+  font-size: 12px
+}
+
+.delete {
+  font-size: 13px;
+  cursor: pointer
+}
+.popover.bs-tether-element-attached-top::after,
+.popover.bs-tether-element-attached-top::before{
+    left: 65%;
+}
+.popover {
+  left: -119px !important;
+}
+.arrow{
+  left: 248px !important;
+}
+.folderIcon {
+  position: absolute;
+  top: -67%;
+  bottom: 0;
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+  margin-left: 0%;
+  display: none;
+}
+.folderIconFont {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  
+}
+.carousel-control-prev{
+  /* width: 5% !important; */
+}
+@media (min-width: 1500px){
+  .slideMargin{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+}
+@media (min-width: 500px){
+  .slideMargin{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+}
+@media (min-width: 600px){
+  .slideMargin{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+}
+@media (min-width: 900px){
+  .slideMargin{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+}
+@media (min-width: 200px){
+  .slideMargin{
+    
+    margin-left: -50% !important;
+    margin-right: -46% !important;
+  }
+  .folderIconMain{
+    display: inline-block;
+  }
+  .form-item-margin{
+    float: unset !important;
+  }
+}
+@media (min-width: 1000px){
+  .slideMargin{
+    
+    margin-left: -42% !important;
+    margin-right: -38% !important;
+  }
+  .folderIconMain{
+    display: none;
+  }
+}
+@media (min-width: 377px){
+  .slideMargin{
+    
+    margin-left: -42% !important;
+    margin-right: -38% !important;
+  }
+  .folderIconMain{
+    display: inline;
+  }
+}
+@media (min-width: 414px){
+  .slideMargin{
+    
+    margin-left: -45% !important;
+    margin-right: -42% !important;
+  }
+  .folderDisplay{
+    display: none;
+  }
+  .folderIconMain{
+    display: inline-block;
+  }
+  .closeButtonMargin{
+    margin-left: 95% !important;
+  }
+  .nextButtonMargin{
+    margin-right: 0% !important;
+  }
+  .prevButtonMargin{
+    margin-left: 0% !important;
+  }
+  .form-item-margin{
+    float: left !important;
+  }
+  .form-item-margin{
+    float: unset !important;
+  }
+}
+
+@media (min-width: 500px){
+  .slideMargin{
+    
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  /* .form-item-margin{
+    float: right !important;
+  } */
+}
+@media (min-width: 768px){
+  .folderDisplay{
+    display: flex;
+  }
+  .folderIconMain{
+    display: none;
+  }
+  .closeButtonMargin{
+    margin-left: 107% !important;
+  }
+  .nextButtonMargin{
+    margin-right: -55% !important;
+  }
+  .prevButtonMargin{
+    margin-left: -55% !important;
+  }
+  .form-item-margin{
+    float: left;
+  }
+}
+.accordion:hover, .active {
+  background-color: transparent !important;
+}
+.marginLeftButton{
+  margin-left: 2%;
+}
+.form-item-margin{
+  float: right;
+}

@@ -1,0 +1,106 @@
+.headerTop {
+  margin-top: 30px;
+}
+
+//.date-picker {
+//  max-width: 120px;
+//}
+
+.input-picker {
+  max-width: 200px;
+}
+
+tr{
+  border-bottom: 1px #F0F0F0;
+}
+
+th {
+  padding-left: 30px;
+}
+
+td {
+  padding-left: 30px;
+}
+
+.ul-padding{
+  margin-bottom: 7px;
+}
+
+.action-padding {
+  padding-left: 60px;
+}
+
+@media only screen and (max-width: 765px) {
+
+  .ul-padding {
+    padding-left: 8px;
+    margin-bottom: 8px;
+  }
+
+  tr {
+    padding-top: 20px;
+  }
+  th {
+    padding-top: 10px;
+  }
+
+  td {
+    align-self: center !important;
+  }
+
+  img {
+    margin-top: 8px;
+  }
+
+  /* Force table to not be like tables anymore */
+  #enterpriseTable table,
+  #enterpriseTable thead,
+  #enterpriseTable tbody,
+  #enterpriseTable th,
+  #enterpriseTable td,
+  #enterpriseTable tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #enterpriseTable thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  //#enterpriseTable tr { border: 1px solid #ccc; }
+
+  #enterpriseTable td {
+    /* Behave like a "row" */
+    border: none;
+    //border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-left: 70%;
+    white-space: normal;
+    text-align: left;
+    align-self: center
+  }
+
+  #enterpriseTable td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 10px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    align-self: center
+  }
+
+  /*
+  Label the data
+  */
+  #enterpriseTable td:before {
+    content: attr(data-title);
+  }
+
+}

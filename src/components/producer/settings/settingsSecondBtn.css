@@ -1,0 +1,42 @@
+
+
+.btn_position{
+    position: absolute;
+    bottom:0 ;
+    right: 0;
+}
+
+
+.form-group-right{
+    margin-right:6px;
+    
+  }
+  .form-group-left{
+    margin-right:20px;
+    
+  }
+
+  .alert_margin{
+
+    margin: 10px;
+  }
+  @media only screen and (max-width: 768px) {
+   
+    .come-from-modal.right .modal-dialog{
+      width: 100% !important;
+      height: 25px;
+      margin: 0 !important;
+      padding: 0 !important;
+      top: 0px;
+      -webkit-transform: translate3d(0%, 0, 0);
+      -ms-transform: translate3d(0%, 0, 0);
+      -o-transform: translate3d(0%, 0, 0);
+      transform: translate3d(0%, 0, 0);
+    }
+    .modelSizeFullScreencontent {
+      height: auto !important;
+      min-height: 100% !important;
+      border-radius: 0 !important;
+    }
+    
+  }

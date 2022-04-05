@@ -1,0 +1,51 @@
+.producteure-dashboard-grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 26px;
+    text-align: center;
+    max-width: 416px; 
+    height: 220px;
+    margin: 17px auto;
+    color:#225684;
+}
+
+.producteure-dashboard-table-box{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    max-width: 849px;
+    padding: 10px;
+    
+    
+}
+
+.producteure-dashboard-box{
+    margin: auto;
+    max-width: 849px;   
+    padding: 10px;
+    
+}
+
+.producteure-dashboard-button{
+    background: #0178D4;
+}
+
+@media only screen and (max-width: 768px){
+    .mobilehidden{
+          display : none;
+    }
+    .producteure-dashboard-grid-item{
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 16px;
+        text-align: center;
+        max-width: 416px; 
+        height: 220px;
+        margin: 17px auto;
+        color:#225684;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .desktophidden{
+          display : none;
+    }
+}
+

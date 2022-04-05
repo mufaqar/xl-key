@@ -1,0 +1,50 @@
+.consultant-notification-pagination {
+    display: inline-block;
+    
+  }
+  
+  .consultant-notification-pagination a {
+    color: black;
+    float: left;
+    padding: 8px 11px;
+    text-decoration: none;
+  }
+  
+  .consultant-notification-pagination a.active {
+   
+    color:#FFFFFF;
+    width:20px;
+    height: 22px;
+    margin-right:200px;
+  }
+  
+  .consultant-notification-pagination a:hover:not(.active) {background-color:#225684;color:#FFFFFF;}
+
+  .consultant-notification-mobile-btn {
+    background-color: #225684;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    width: 55px;
+    height: auto;
+    
+  }
+
+  .consultant-notification-mobile-arrow-color-btn{
+    color: black;
+  }
+
+  .consultant-notification-mobile-btn-aligment{
+    margin: auto;
+    width: 50%;
+    padding: 10px
+  }
+
+  .consultant-notification-bottom-button {
+   
+    left: 50%;
+
+  }
+  
+  

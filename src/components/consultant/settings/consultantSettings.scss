@@ -1,0 +1,30 @@
+.btn-margin {
+  margin-top: 2.8rem !important;
+}
+
+.text-alignment {
+  float: left !important;
+}
+
+.align-center {
+  align-self: center;
+}
+
+.btn-margin-btm {
+  margin-bottom: 2.8rem !important;
+}
+
+@media only screen and (max-width: 575px) {
+  .btn-margin {
+    margin-top: 0.8rem !important;
+  }
+  .row-margin {
+    margin-top: 0.8rem !important;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1260px) {
+  .btn-margin {
+    margin-top: 4.3rem !important;
+  }
+}

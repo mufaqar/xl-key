@@ -1,0 +1,20 @@
+.producteure-note-popup-button2{
+    float: left;
+    width: 122px;
+    height: 30px;
+    color: #0178D4;
+    background-color: #FFFFFF;
+    border: 1px solid #0178D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.producteure-note-popup-font-colour{
+    color:#202124;
+
+}
+
+
+  input[type=checkbox] {
+    transform: scale(1.6);
+}

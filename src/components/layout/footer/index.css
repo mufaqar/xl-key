@@ -1,0 +1,41 @@
+.textcolour {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.legaltextcolour {
+    color: #87AAC8;
+    font-size: 16px;
+}
+
+.footerbackground {
+    background: #225684;
+
+}
+
+.linecolour {
+    height: 3px;
+    border-width: 0;
+    color: 2px solid #FFFFFF23;
+    background-color: 1px solid #FFFFFF23;
+
+}
+
+.line {
+    height: 1px;
+    border-width: 0;
+    color: #87AAC8;
+    background-color: #87AAC8;
+}
+
+
+.link-text {
+    color: #87AAC8 !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    div.centerword {
+        text-align: center;
+    }
+}

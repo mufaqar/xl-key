@@ -1,0 +1,20 @@
+.pagination{
+    float: right;
+}
+.dataTables_info{
+    display: none;
+}
+#dataTable_length{
+    display: none;
+}
+#dataTable_filter{
+    display: none;
+}
+.fontColorRed{
+    color: red;
+}
+.headerColor{
+    color: #225684;
+  }
+
+  

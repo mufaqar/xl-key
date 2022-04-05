@@ -1,0 +1,108 @@
+.dotted {
+    border: 1px dashed #DCDCDC;
+    height: 200px;
+    border-color: rgb(189, 185, 189);
+    padding: 13px;
+}
+.containerPadding{
+    padding: 8px;;
+}
+.closeFloat{
+   
+    float: right;
+    margin-top: -35px;;
+ 
+}
+.uploadPadding{
+    padding-left: 11px;
+}
+.overflowClass{
+    width: 100%;
+    height: 160px;
+    overflow: auto;
+}
+.paddingItems{
+    padding: 40px;
+}
+.iconPadding{
+    padding-left: 50px;
+    float: left;
+  }
+  .paddingCheckBox{
+      padding-right: 55px;
+  }
+  .createButtonMargin{
+    margin: 12px;
+  }
+  .iconColor{
+      color: #225684;
+      font-weight:bold;
+  }
+  .closeIconFloat{
+      float: right;
+      cursor: pointer;
+  }
+  .headerColor{
+      color: #225684;
+    }
+ .paddingTop{
+    padding-top: 23px;
+ }
+ .camPadding{
+     
+    padding-top: 31px;
+
+ }
+ .checkbox label:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+  }
+  
+  .checkbox .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 15%;
+  }
+  
+  .checkbox label input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkbox label input[type="checkbox"]+.cr>.cr-icon {
+    opacity: 0;
+  }
+  
+  .checkbox label input[type="checkbox"]:checked+.cr>.cr-icon {
+    opacity: 1;
+  }
+  
+  .checkbox label input[type="checkbox"]:disabled+.cr {
+    opacity: .5;
+  }
+  @media (max-width: 768px) {
+    .buttonMaxwidthGroup{
+      width: 100% !important;
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+    }
+    .buttonWidth{
+      width: 100% !important;
+    }
+    .imageboxSmallScreenHeight{
+      height: 153px !important;
+    }
+}

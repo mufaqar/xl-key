@@ -1,0 +1,116 @@
+@media (min-width: 992px){
+    .bellIconMoble{
+        display:none !important;
+    }
+}
+@media (min-width: 100px){
+    .logoMargin{
+        margin-left: 30px;
+        margin-top: -28px;
+    }
+}
+    .buttonClass{
+        display: inline !important;
+    }
+.belPadding{
+    padding-right: 21px;
+}
+.logout-btn {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(111,111,111,0.5); 
+    z-index: 9;  
+}
+
+.popup-content {
+    z-index: 100; 
+}
+
+
+/* Popup box styles */
+
+
+.popup-content {
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    width: 575px;
+    height: 257px;
+    border-radius: 4px;
+    margin-top: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .k-animation-container {
+        left: 0px !important;
+        right: 0px;
+    }
+    div.popup-content {
+      color: #FFFFFF;
+      background-color: #FFFFFF;
+      width: 100%;
+      height:100vh;
+      margin-top:10px ;
+      margin-bottom: 500px;
+      
+    }
+  }
+
+
+.menu-grid-item {
+    font-size: 26px;
+    text-align: left;
+    color:#225684;
+}
+
+.topic-font{
+    font-size: 18px;
+    margin-left: 20px;
+    font-Weight: bold;
+    color:#202124;
+}
+
+.description-font{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #8F9094;
+}
+
+.notificationDot{
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 1px;
+    right: 22px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .notificationDot{
+        top: 38px;
+        right: 38px;
+    }
+}
+
+
+
+.notificationDot svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.belStyle{
+    position: relative;
+}
+

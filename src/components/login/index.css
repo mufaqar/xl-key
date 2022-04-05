@@ -1,0 +1,33 @@
+.logintextaligmentone{
+    margin-top: -20px;
+    color: #202124;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.logintextaligmenttwo{
+    margin-top: 10px;
+}
+
+.logintextaligmentthree{
+    margin-top: 5px;
+    /* color: #202124; */
+}
+
+.logintextaligmentfour{
+    margin-top: 10px;
+}
+
+.loginbuttonaligment{
+    margin-top: 20px;
+    background-color:#0178D4;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.loginfontcolour{
+    color: #202124;
+    font-weight: 700;
+}
+
